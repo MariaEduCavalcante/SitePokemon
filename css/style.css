@@ -1,0 +1,271 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-image:url(../img/fundo2.png);
+}
+/**Seções**/
+section{
+	width:100%;
+	float:left;
+}
+/** botão que leva ao início**/
+.btn{
+    width:60px;
+    height:60px;
+    display:flat;
+    justify-content:center;
+    align-items:center;
+    position:fixed;
+    bottom:20px;
+    right:15px;
+    text-decoration:none;
+    content:url(../img/seta.png)
+}
+/**Definindo fontes**/
+@font-face{
+    font-family:"Pokemon Solid";
+    src:url(../Pokemon\ Solid.ttf);
+}
+@font-face{
+    font-family:"Pokemon Hollow";
+    src:url(../Pokemon\ Hollow.ttf);
+}
+/**Definindo o menu**/
+nav{
+    font-family:"Pokemon Hollow";
+    width:100%;
+    position:fixed;
+    z-index:1;
+    background:#fff;
+    height:50px;
+    margin:0px;
+    text-align:center;
+    display:table-caption;
+    opacity:0.9;
+}
+ul li{
+    list-style:none;
+    display:inline;
+    padding:20px;  
+    line-height:50px; 
+}
+ul li a{
+    color:#000;
+    text-decoration:none;
+    font-size:24px;
+}
+ul li a:hover{
+    font-family: "Pokemon Solid";
+    background:none;
+}
+/**Definindo as seções**/
+#home{
+    text-align: center;
+    background-image:url(../img/fundo1.png);
+    height:1000px;
+    width:100%;
+}
+#história{
+    height:1000px;
+    width:100%;
+    background-image:url(../img/fundo1.png);
+}
+#pokedex{
+    background-image:url(../img/fundo1.png);
+    height:1150px;
+    width:100%;
+    text-align:center;
+
+}
+#batalhas{
+    background-image:url(../img/fundo1.png);
+    height:1000px;
+    width:100%;
+}
+
+/**Definindo o footer**/
+.footer{
+    width:100%;
+    height:125px;
+    background:#7FAD71;
+    text-align:center; 
+    font-family:arial;
+}
+.footer img{
+    width:200px;
+    height:73px;
+}
+#footer2{
+    width:100%;
+    height:60px;
+    background:#7FAD71;
+    text-align:center; 
+}
+#footer2 img{
+    width:40px;
+    height:40px;
+    padding:5px;
+}
+#footer2 img:hover{
+    transform:translate(10px, 10px);
+}
+
+/**Definindo a segunda seção**/
+#div1{
+    font-family:arial;
+    margin-right:200px;
+    float: right;
+    bottom:20px;
+    right:15px;
+    
+}
+#div2{
+    float: left;
+    margin-top:0px;
+}
+#div1 img{
+    width:350px;
+    height:100px;
+}
+#div3{
+    font-family:arial;
+    font-size:20px;
+    margin-right:60px;
+    float: right;
+    right:15px;
+}
+#div3 p{
+    text-align: justify;
+    padding:5px;
+}
+#criadores{
+    position:center;
+}
+/**Criando o slideshow**/
+.slider{
+	width:600px;
+	height:350px;
+	display:block;
+    margin:auto;
+	margin-top:20px;
+}
+.slider li{
+	list-style:none;
+	position:absolute;
+}
+.slider img{
+	margin:auto;
+	width:650px;
+	height:350px;
+	vertical-align:top;
+	opacity:0;
+	visibility:hidden;
+
+}
+.slider input{
+	display:none;
+	
+}
+.slider label{
+	width:10px;
+	height:10px;
+	z-index:10;
+	bottom:35px;
+	position:absolute;
+    cursor:pointer;
+	background:red;
+}
+.slider li input:checked ~ img {
+	opacity:1;
+	visibility:visible;
+	z-index:10;
+}
+.slider li:nth-child(1) label {
+	left: 115px;
+}
+.slider li:nth-child(2) label {
+	left: 145px;
+}
+.slider li:nth-child(3) label {
+	left: 175px;
+}
+
+/**Definindo a primeira seção**/
+#div25 img{
+    height:300px;
+    width:800px;
+}
+#ball{
+    text-align:center;
+}
+#ball img{
+    width:35%;
+}
+/**Arrumando o áuio**/
+#home audio{
+    width:1200px;
+}
+#poke{
+    width:1200px;
+    height:200px;
+    margin-left:75px;
+}
+#poke img{
+    width:100%;
+}
+#poke img:hover{
+    transition:1s;
+    transform: scale(2,2);
+
+}
+
+/**Definindo a terceira seção**/
+.div26 img{
+    width:250px;
+    height:250px;
+}
+.div26 table{
+    padding:5px;
+}
+h1{
+    font-family: "Pokemon Hollow";
+    text-align:center;
+}
+input{
+    width:250px;
+    height:25px;
+}
+#pesquisa img{
+    width:20px;
+    height:20px;
+}
+.div26{
+    margin-left:45px;
+}
+
+/**Definindo a quarta seção**/
+.jog img{
+    width:250px;
+    height:250px;
+}
+/**Arrumando o vídeo**/
+video{
+    width:250px;
+    height:150px;
+}
+#batalhas{
+    text-align:center;
+}
+#img30 img{
+    width:51%;
+}
+#left{
+    float:left;
+    margin-left:60px;
+}
+#right{
+    float:right;
+    margin-right:60px;
+}
